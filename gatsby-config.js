@@ -4,12 +4,33 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitle: `Tirth Suthar | Portfolio`,
+    siteTitleAlt: `Tirth Suthar | Portfolio`,
+    siteHeadline: `Tirth Suthar`,
+    siteUrl: `https://tirth.netlify.com`,
+    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+    siteLanguage: `en`,
+    siteImage: 'lol',
+    author: 'Parth'
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
-      options: {},
+      options: {
+        name: 'TirthSuthar',
+        location: 'Ahmedabad, India',
+        showThemeAuthor: false,
+        socialMedia: [
+          {
+            title: 'Instagram',
+            href: 'https://instagram.com/artistrixx?igshid=lk841slb7lok'
+          },
+          {
+            title: 'Twitter',
+            href: 'https://twitter.com/Tirthsutharr'
+          }
+        ]
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
