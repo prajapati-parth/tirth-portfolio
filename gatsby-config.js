@@ -8,7 +8,7 @@ module.exports = {
     siteTitleAlt: `Tirth Suthar | Portfolio`,
     siteHeadline: `Tirth Suthar`,
     siteUrl: `https://tirth.netlify.com`,
-    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+    siteDescription: `Tirth Suthar's portfolio. Calligraphy, Fonts, Design and much more.`,
     siteLanguage: `en`,
     siteImage: 'lol',
     author: 'Parth'
@@ -44,7 +44,7 @@ module.exports = {
       options: {
         name: `Tirth Suthar | Portfolio`,
         short_name: `Tirth`,
-        description: `Tirth Suthar's portfolio`,
+        description: `Tirth Suthar's portfolio. Calligraphy, Fonts, Design and much more.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
